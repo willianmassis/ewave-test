@@ -1,0 +1,14 @@
+<app-title title="Raças" [withBackButton]="false"></app-title>
+<div class="wrap">
+	<div class="form-group">
+		<label>Selecione a raça:</label>
+		<select class="form-control" [(ngModel)]="selected" (change)="getSelected()">
+			<option value="">Selecione a raça</option>
+			<option *ngFor="let breed of breedSelectList.items" [value]="breed.id">{{
+				breed.text
+			}}</option>
+		</select>
+	</div>
+
+	<app-breed-list [filteredBreeds]="filteredBreeds"></app-breed-list>
+</div>

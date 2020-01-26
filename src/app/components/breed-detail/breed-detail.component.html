@@ -1,0 +1,5 @@
+<app-title title="{{ title }}" [withBackButton]="true"></app-title>
+<div class="breed-image-container">
+  <img [src]="image" alt="{{ title }}" class="breed-image" *ngIf="image" />
+  <span *ngIf="!image">Carregando Imagem...</span>
+</div>

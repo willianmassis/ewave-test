@@ -1,0 +1,11 @@
+.breed {
+  &-image {
+    width: 300px;
+    max-width: 100%;
+  }
+
+  &-image-container {
+    display: flex;
+    justify-content: center;
+  }
+}

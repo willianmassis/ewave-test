@@ -1,0 +1,12 @@
+@import '../../../sass/variables';
+
+.breed-item {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  text-transform: capitalize;
+
+  &:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+}

@@ -1,0 +1,13 @@
+<div class="title">
+	<button
+		type="button"
+		class="title__back-button"
+		(click)="goBack()"
+		*ngIf="withBackButton"
+	>
+		<i class="fas fa-chevron-left"></i>
+	</button>
+	<h1 class="title__text">
+		{{ title }}
+	</h1>
+</div>

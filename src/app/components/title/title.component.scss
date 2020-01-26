@@ -1,0 +1,24 @@
+@import '../../../sass/variables';
+
+.title {
+  display: flex;
+  padding: 30px 30px 0;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+
+  &__text {
+    text-align: center;
+    width: 100%;
+  }
+
+  &__back-button {
+    outline: none;
+    cursor: pointer;
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    display: inline-block;
+    margin-right: 15px;
+  }
+}
